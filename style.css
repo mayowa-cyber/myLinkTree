@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(to right, #5fc2ff, #7bfeba);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.head h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.head p{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.links a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.3s;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.links a:hover{
+    opacity: 0.5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.link-detail{
+    margin-left: 12px;
+}
+
+.Twitter{
+    background-color: #1DA1F2;
+    color: white;
+}
+.LinkedIn{
+    background-color: #0077B5;
+    color: white;
+}
+.Discord{
+    background-color: #5865F2;
+    color: white;
+}
+.Email{
+    background-color: #D44638;
+    color: white;
+}
+.Snapchat{
+    background-color: #FFFC00;
+    color: black;
+}
+.GitHub{
+    background-color: #333;
+    color: white;
+}
+.Snapchat img{
+    filter: invert(1);
+}
+@media (max-width: 500px){
+    .container{
+        margin: 20px;
+        padding: 15px;
+    }
+    .head h1{
+        font-size: 20px;
+    }
+    .links a{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .link-detail{
+        margin-left: 8px;
+    }
+    .links img{
+        width: 25px;
+        height: 25px;
+    }
+}
